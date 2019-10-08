@@ -5,5 +5,8 @@ public class Square {
         this.a=a;
     }
 
+    double calculateArea(Square square){
+        return square.a*4; //obwód
+    }
 
 }

@@ -6,4 +6,9 @@ public class Rectangle {
         this.a=a;
         this.b=b;
     }
+
+    double calculateArea(){
+        return (a + b)*2; //obwód
+    }
+
 }

@@ -4,4 +4,9 @@ public class Circle {
     Circle (double r) {
         this.r=r;
     }
+
+    double calculateArea(Circle cirle){
+        return 2*cirle.r*Math.PI;
+    }
+
 }

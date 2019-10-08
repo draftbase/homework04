@@ -8,4 +8,8 @@ public class Triangle {
         this.b=b;
         this.c=c;
     }
+
+    double calculateArea(Triangle triangle){
+        return triangle.a + triangle.b + triangle.c;
+    }
 }

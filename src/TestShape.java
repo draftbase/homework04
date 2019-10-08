@@ -13,6 +13,9 @@ public class TestShape {
         System.out.println(wyniki.rectPerimeter(prostokat));
         System.out.println(wyniki.trianglePerimeter(trojkat));
 
+        Rectangle rect = new Rectangle(5, 10);
+        double rectArea = rect.calculateArea();
+        System.out.print(rectArea); //wyświetla 50
 
     }
 }
