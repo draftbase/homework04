@@ -1,7 +1,6 @@
 public class TestTV {
     public static void main(String[] args) {
-        String status = "OFF";
-        Televisor tv = new Televisor(status);
+        Televisor tv = new Televisor();
 
         tv.showStatus();
         tv.turnOn();

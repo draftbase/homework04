@@ -4,6 +4,10 @@ public class Televisor {
 //    showStatus()- wyświetla informację, czy telewizor jest włączony, czy wyłączony
     String status;
 
+    Televisor () {
+        this.status = "OFF";
+    }
+
     Televisor (String status) {
         this.status = status;
     }
